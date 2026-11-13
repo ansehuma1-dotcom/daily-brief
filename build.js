@@ -25,7 +25,7 @@ const SITE = {
   tagline: 'Top stories, every day.',
   description: 'Daily Brief — short, factual news stories on the topics people are talking about.',
   // TODO: change this to your real deployed Vercel URL after first deploy.
-  url: 'https://daily-brief.vercel.app',
+  url: 'https://daily-brief-eight-beta.vercel.app',
   language: 'en',
 };
 

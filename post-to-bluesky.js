@@ -30,7 +30,7 @@ const fs = require('fs');
 const path = require('path');
 
 const BSKY_API = 'https://bsky.social/xrpc';
-const DEFAULT_BLOG_URL = 'https://daily-brief.vercel.app'; // TODO: change to your real Vercel URL
+const DEFAULT_BLOG_URL = 'https://daily-brief-eight-beta.vercel.app'; // production Vercel URL
 
 const args = process.argv.slice(2);
 const dryRun = args.includes('--dry-run');
