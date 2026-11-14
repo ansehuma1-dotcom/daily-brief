@@ -74,5 +74,24 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Glaston2024_2806_300624_%28129_of_173%29_%2853838110070%29.jpg/1280px-Glaston2024_2806_300624_%28129_of_173%29_%2853838110070%29.jpg",
     "imageCredit": "Avril Lavigne performing at Glastonbury Festival, June 2024 — Photo: Raph_PH, Wikimedia Commons (CC BY 2.0)",
     "imageNote": "Free-licence photo of Lavigne performing at Glastonbury in June 2024. No free photo of the baby announcement itself exists (her Instagram photos are copyrighted)."
+  },
+  {
+    "id": "faa-nationwide-ground-stop-november-2026",
+    "slug": "faa-nationwide-ground-stop-november-2026",
+    "title": "FAA Lifts Nationwide Ground Stop After Four Hours as Outdated Air Traffic System Fails",
+    "summary": "The FAA grounded all departing flights across the United States on Friday after an air traffic control communications failure, stranding thousands of travellers for more than four hours before lifting the stop.",
+    "category": "Travel",
+    "date": "2026-11-14",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Departure_Board_at_ORD.jpg/1280px-Departure_Board_at_ORD.jpg",
+    "imageCredit": "Departure board at Chicago O'Hare airport — Photo: Redolta, Wikimedia Commons (CC0)",
+    "imageNote": "Free-licence photo of a departure board at Chicago O'Hare. The ground stop affected airports across the United States.",
+    "source": "https://www.usatoday.com/story/news/nation/2026/11/13/faa-orders-nationwide-groundstop-at-us-airports-citing-safety/92765499007/",
+    "sample": false,
+    "body": [
+      "The Federal Aviation Administration ordered a nationwide ground stop on Friday, November 13, 2026, halting all departing flights across the United States after instability in its radar and communications systems. The order, issued in the afternoon, cited extraordinary circumstances and safety concerns. It was lifted at about 8:15 p.m. ET, more than four hours after it began.",
+      "Transportation Secretary Sean Duffy said the failure came from the country's ageing air traffic control system. The FAA began seeing instability in radar and communications at traffic control centres from about 3:36 p.m. ET, as switches and routers in the old analogue system became overloaded with data. Duffy said the system gave inconsistent data from the routers, and the FAA shut it down. Homeland Security Secretary Markwayne Mullin said there was no indication of a nefarious attack, calling it a telecommunication outage.",
+      "Nearly 7,000 flights were delayed or cancelled, according to Reuters. More than 3,500 aircraft were in the air when the stop was issued; by 8 p.m., fewer than 400 remained airborne. Flights already in the air were allowed to continue, and exceptions were made for medical, law-enforcement and life-saving cargo flights. US-bound departures from Eurocontrol's 42 member countries were also suspended at the FAA's request.",
+      "The disruption was only the third nationwide ground stop in US history, after September 11, 2001, and a computer outage on January 11, 2023. Duffy renewed President Donald Trump's request for Congress to approve $30 billion to upgrade the air traffic control system, saying it would take some time for flights to return to normal, with aircraft and crews out of position."
+    ]
   }
 ]
