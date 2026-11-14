@@ -16,17 +16,24 @@ build — articles are written by a person (Muse) from real, checked news.
 | `vercel.json` | Vercel settings: build with `node build.js`, serve `dist/` |
 | `dist/` | Generated site (do not edit by hand — rebuilt every time) |
 
-## Daily workflow (max 2 articles per day)
+## Daily workflow (2 articles per day, with a gap)
 
-1. Check Bluesky trending topics for the day and pick 1–2 real news stories
-   (celebrity, crypto, fitness and general news do best with this audience).
+2 articles per day — 1 per run, 2 runs a day about 12 hours apart
+(morning + evening). NEVER post both of the day's posts at the same time.
+
+1. Check Bluesky trending topics for the day and pick 1 real news story.
+   TOPICS MUST BE TRENDING (celebrity, crypto, fitness and general news
+   do best with this audience). Do not repeat a story covered in the
+   last 7 days.
 2. Verify the facts with a web search. Never invent quotes, figures or
    details. Every article should link its `source` (the news page you
    checked).
 3. Add one JSON entry per article to `articles.json` (see format below).
    Keep `date` as the publish date (`YYYY-MM-DD`).
 4. Run the build: `node build.js`
-5. Post the newest article to Bluesky (see below).
+5. Post the newest article to Bluesky (see below). THUMBNAIL IS
+   MANDATORY — wait for the link card image to load; if it will not
+   load, attach the hero image directly. Never publish a text-only card.
 6. Deploy: `git push` (Vercel rebuilds automatically) — or deploy the
    `dist/` folder (see Deploy).
 
@@ -157,7 +164,11 @@ node post-to-bluesky.js --slug <slug>    # post a specific article, not the newe
 Without credentials the script prints a clear message and posts nothing.
 The post text is the article title + link; Bluesky builds the link card
 from the article page's Open Graph tags. Keep it to **2 posts per day
-maximum** — more risks a Bluesky suspension.
+maximum** — more risks a Bluesky suspension — and space the 2 posts
+about 12 hours apart (morning + evening), never both at once.
+**Thumbnail is mandatory on every post:** wait for the link card image
+to fully load in the composer; if it will not load, attach the article's
+hero image directly to the post instead. Never publish a text-only card.
 
 ## Notes
 
