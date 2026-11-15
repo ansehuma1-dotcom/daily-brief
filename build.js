@@ -83,12 +83,11 @@ function validate(articles) {
 // ---------------------------------------------------------------- templates
 
 function adHeadSlots() {
-  // Adsterra Social Bar + Popunder codes go just below <head>.
-  // These comments stay harmless when empty — paste the real codes
-  // between the markers (see README.md).
+  // Adsterra Social Bar + Popunder codes, live 2026-11-15.
+  // Social Bar: SocialBar_1, ID 32283807. Popunder: Popunder_1, ID 32283808.
   return [
-    '  <!-- ADSTERRA SOCIAL BAR: paste your Adsterra Social Bar code here -->',
-    '  <!-- ADSTERRA POPUNDER: paste your Adsterra Popunder code here -->',
+    '  <script data-cfasync="false" src="https://bicea.org/14/c03ce59c180c7fb347c35296e995b8d9"></script>',
+    '  <script data-cfasync="false" src="https://afders.org/1/4b61ebfa94726e087d9f2fddfd235f8e"></script>',
   ].join('\n');
 }
 
