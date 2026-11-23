@@ -114,6 +114,11 @@ function layout({ title, description, ogImage, canonical, body }) {
 ${ogImage ? `<meta property="og:image" content="${esc(ogImage)}">` : ''}
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="/style.css">
+<!-- Vercel Web Analytics (enable in Vercel dashboard > Analytics) -->
+<script>
+window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 ${adHeadSlots()}
 </head>
 <body>
